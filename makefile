@@ -32,6 +32,9 @@ merge-region:
 all-regions:
 	$(RUN) bash builds/index-all-region.sh
 
+single-index:
+	$(RUN) bash builds/single-index.sh
+
 
 ##### DOCKER #####
 test-local: docker/Dockerfile
